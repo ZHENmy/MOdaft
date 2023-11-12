@@ -198,24 +198,32 @@ button{
 footer{
     background: #000;
     color: #FFF;
-    margin: auto;
+    
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace; 
 }
-.mo, .olimp{
-    color: grey;
-}
 .fot{
-    padding: 5px 10px;
+    max-width: 300px;
     margin: auto;
 }
-footer .fot ul{
+
+.fot ul{
     list-style: none;
+    display: inline-block;
 }
-footer ul li{
-    margin: 5px;
-    display: block;
+
+.fot ul li{
+    margin: 20px;
+    
 }
+
+.olimp,
+.mo{
+    color: grey;
+
+}
+
+
 
 
 hr{
