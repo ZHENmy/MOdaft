@@ -1,0 +1,227 @@
+body {
+    background: #ebebeb;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* add @media
+если экран меньше, чем 1040 px */
+
+
+
+.navbar{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 6;
+}
+
+#header{
+    margin-top: 50px;
+}
+
+
+
+
+/* красота этой навигации */
+.navbar{
+    background: #626ed9a8;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.navbar ul form{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logo img{
+    width: 150px; 
+}
+
+
+
+/* .navbar ul form li{
+    margin-right: 10px;
+}
+
+
+.event div #text1{
+    border: none;
+    
+}
+
+/* подумать над тем, что было бы лучше перенести город, 
+класс и уровень на другую строку */
+
+
+
+
+
+.card{
+    
+    border: none;
+    margin: 20px 10px;
+    background: #fff;
+    margin: 15px;
+}
+#about {
+    padding: 3px 10px;
+}
+
+ .numeration{
+    margin: 0;
+    padding: 0;
+}
+.numeration ul{
+    list-style: none;
+    margin: 10px 20px;
+    border-radius: 10px;
+    color: #271e1e;
+    padding: 0;
+}
+
+
+.numeration ul li{
+    background: #99b8f0;
+    border-radius: 5px;
+    height: 50px;   /*просто для себя */
+    width: 150px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+/*  */
+
+.stage{
+    padding: 0 10px;
+}
+
+.stage ul {
+    list-style: none;
+    margin: 10px 20px;
+}
+.stage ul li{
+    width: 150px;
+    margin: 10px;
+}
+
+
+/*  */
+.about{
+    padding: 3px 10px;
+}
+
+.bu{
+    padding-bottom: 20px;
+}
+button{
+    margin: 0 auto;
+    display: block;
+}
+
+.button button{
+    border: none;
+    width: 150px;
+    font-family: inherit;
+    font-size: 20px;
+    background: #afd9ee;
+    border-radius: 5px;
+    
+}
+
+/*  */
+
+#det{
+    background: #f3f5ff;
+    margin: 0;
+    padding: 0s;
+    /* background: #ebebeb; */
+}
+.textdet{
+    margin: 0;
+    padding: 15px;
+}
+
+.prof ul{
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+
+.prof ul li{
+    border: none;
+    background: #fff;
+    width: 150px; 
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+
+}
+/* */
+
+.block{
+    
+    margin: 10px;
+    width: 400px;
+    display: inline-block;
+}
+
+.block p{
+    padding: 0;
+    margin: 5px;
+}
+.block h3{
+    margin: 0;
+}
+
+.achivements{
+    padding: 3px 10px;
+}
+
+.diploms{
+    display: inline-block;
+    border: 1px solid red;
+    width: 300px;
+}
+
+
+footer{
+    background: #000;
+    color: #FFF;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.mo, .olimp{
+    color: grey;
+}
+.fot{
+    padding: 5px 10px;
+    margin: auto;
+}
+footer .fot ul{
+    list-style: none;
+}
+footer ul li{
+    margin: 5px;
+    display: block;
+}
+
+
+hr{
+    width: 95%;
+    color: grey;
+    height: 0.5px;
+    background: grey;
+    border: none;
+}
